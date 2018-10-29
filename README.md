@@ -21,7 +21,7 @@ processing improved the processing time of large XML files significantly.
 We executed multi-threading SAX processing on an exactly same XML file multiple
 times and saw increase in data processing speed. This experiment is wrongly
 setup because when we did multi-threaded SAX processing on real dataset (several
-dierent XMLs), we saw a decrease in data processing speed. This is because
+different XMLs), we saw a decrease in data processing speed. This is because
 the machine in this project only had single hard disk drive, thus the performance
 is limited by the single read head as the disk need to spin back and forth to
 serve multiple read on multiple XML files. In this project, we proved that data
